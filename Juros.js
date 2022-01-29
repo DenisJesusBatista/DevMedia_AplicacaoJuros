@@ -18,9 +18,8 @@ if (Number(dias_vencimento) < 15) {
     Number(taxa_Juros) = 15
 }
 
-let
 
-    let valor_Juros = (valor_divida / 100) * taxa_Juros;
+let valor_Juros = (valor_divida / 100) * taxa_Juros;
 let totalDivida = valor_divida + valor_Juros;
 
 console.log("\nValor original da dívida: R$ " + valor_divida);
